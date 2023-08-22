@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/clock"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:text="@string/alarm_is_ringing"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/button_dismiss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dismiss"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/button_snooze"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/snooze"/>
+
+</LinearLayout>

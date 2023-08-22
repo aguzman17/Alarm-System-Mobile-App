@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Switch
+        android:id="@+id/switch_gps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="32dp"
+        android:text="Enable GPS" />
+
+    <EditText
+        android:id="@+id/editText_update_interval"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Update Interval (ms)"
+        android:minHeight="48dp" />
+
+    <Switch
+        android:id="@+id/switch_location_tracking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:text="Enable Location Tracking" />
+
+    <Spinner
+        android:id="@+id/spinner_distance_units"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/distance_units_array"
+        android:minHeight="48dp" />
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+
+
+
+
+</LinearLayout>
